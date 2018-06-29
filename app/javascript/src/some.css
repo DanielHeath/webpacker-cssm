@@ -1,0 +1,11 @@
+.hi {
+  composes: red from './base.css';
+}
+.also {
+  background-color: lightblue;
+  text-align: right;
+}
+.conditional {
+  background-color: lightgreen;
+  text-align: center;
+}

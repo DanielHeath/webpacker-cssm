@@ -1,0 +1,11 @@
+<% cssmodule "some.css" do |some| %>
+  <div class="<%= some.hi %>">
+    hi
+  </div>
+  <div class="<%= some.(:also, conditional: true) %>">
+    also
+  </div>
+  <div class="<%= some.(:also, conditional: false) %>">
+    finally
+  </div>
+<% end %>
